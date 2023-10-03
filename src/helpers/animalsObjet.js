@@ -10,37 +10,37 @@ export const arrayAnimals = [
         id: 1,
         name: "Pastor belga malinois\n",
         image: images0,
-        race: 'Dog'
+        race: 'Perro'
     },
     {
         id: 2,
         name: "Agaporni Roseicollis",
         image: images1,
-        race: 'Bird'
+        race: 'Ave'
     },
     {
         id: 3,
         name: "Ara ararauna",
         image: images2,
-        race: "Bird"
+        race: "Ave"
     },
     {
         id: 4,
         name: 'Gato calicó',
         image: images3,
-        race: 'Cat'
+        race: 'Gato'
     },
     {
         id: 5,
         name: 'Gato atigrado',
         image: images4,
-        race: 'Cat'
+        race: 'Gato'
     },
     {
         id: 6,
         name: 'Eubalaena glacialis',
         image: images5,
-        race: 'Whale'
+        race: 'Ballena'
     }
 ];
 

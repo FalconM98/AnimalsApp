@@ -18,4 +18,3 @@ export const AnimalsGrid = () => {
         </div>
     );
 }
-console.log(arrayAnimals);

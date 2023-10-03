@@ -18,14 +18,8 @@ input {
     font-size: 1.2rem;
     outline: none;
     padding: 10px 15px;
-    width: 50%;
+    width: 100%;
     text-align: center;
-}
-
-.center-input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .card-grid {
@@ -33,6 +27,7 @@ input {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 40px;
 }
 
 .card {
