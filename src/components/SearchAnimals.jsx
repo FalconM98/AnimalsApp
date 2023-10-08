@@ -1,23 +1,23 @@
-import {useState} from "react";
+import React from 'react';
 
-export const SearchAnimals = () => {
-    //Se crea un hook para buscar los datos
-    const [search, setSearch] = useState("");
-
+export const SearchAnimals = ({ search, setSearch }) => {
     const handleInputSearch = (event) => {
         setSearch(event.target.value);
-    }
+    };
+
     const handleSubmit = (event) => {
-      event.preventDefault();
-      console.log(search);
-    }
+        event.preventDefault();
+        console.log(search);
+    };
+
     return (
         <form onSubmit={handleSubmit}>
-            <input type={'text'}
-                   placeholder={'Buscar Animales'}
-                   value={search}
-                   onChange={handleInputSearch}
+            <input
+                type={'text'}
+                placeholder={'Buscar Animales'}
+                value={search}
+                onChange={handleInputSearch}
             />
         </form>
     );
-}
+};
